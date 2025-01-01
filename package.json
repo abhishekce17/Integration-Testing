@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --bail",
-    "test:integration": "bash scripts/run-integration.sh"
+    "test": "vitest",
+    "test:integration": "bash ./scripts/run-integration.sh"
   },
   "keywords": [],
   "author": "",
