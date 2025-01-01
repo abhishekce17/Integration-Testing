@@ -2,11 +2,3 @@ node_modules
 # Keep environment variables out of version control
 dist
 .env
-
-
-
-
-
-git remote add origin https://github.com/abhishekce17/Integration-Testing.git
-git branch -M main
-git push -u origin main
