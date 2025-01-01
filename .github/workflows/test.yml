@@ -40,5 +40,8 @@ jobs:
       - name: Grant execute permissions to wait-for-it.sh
         run: chmod +x ./scripts/wait-for-it.sh
 
+      - name: Grant execute permissions to run-integration.sh
+        run: chmod +x ./scripts/run-integration.sh
+
       - name: Run integration script
         run: npm run test:integration
