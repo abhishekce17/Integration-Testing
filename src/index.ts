@@ -13,7 +13,7 @@ app.post("/add", async (req, res) => {
     });
     return;
   }
-  const result = a + b;
+  const result = a - b;
   const request = await client.request.create({
     data: {
       a: a,
@@ -22,5 +22,5 @@ app.post("/add", async (req, res) => {
       type: "ADD",
     },
   });
-  res.json({ result, id: request.id });
+  res.json({ result, id: request.a });
 });
