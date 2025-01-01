@@ -45,13 +45,3 @@ jobs:
 
       - name: Run integration script
         run: npm run test:integration
-        env:
-          CI: true
-
-      - name: Check test results
-        run: |
-          if [ $? -ne 0 ]; then
-            echo "Tests failed"
-            exit 1
-          fi
-

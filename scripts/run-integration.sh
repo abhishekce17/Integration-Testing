@@ -4,4 +4,3 @@ echo "Waiting for DB ready for connection"
 echo "DB is ready for connection"
 npx prisma migrate dev --name init
 npm run test
-docker compose down
